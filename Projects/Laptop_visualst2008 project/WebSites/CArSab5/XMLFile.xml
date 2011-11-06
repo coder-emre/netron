@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Advertisement>
+
+  <Ad>
+    <ImageUrl>banner.gif</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <AlternateText>
+      
+    </AlternateText>
+    <Impression></Impression>
+    <Keyword></Keyword>
+    
+  </Ad>
+  <Ad>
+    <ImageUrl>banner2.gif</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <AlternateText>
+
+    </AlternateText>
+    <Impression></Impression>
+    <Keyword></Keyword>
+
+  </Ad>
+  <Ad>
+    <ImageUrl>banner3.gif</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <AlternateText>
+
+    </AlternateText>
+    <Impression></Impression>
+    <Keyword></Keyword>
+
+  </Ad>
+</Advertisement>

@@ -1,0 +1,5 @@
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\WebDovizKurlari\WebDovizKurlari\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\WebDovizKurlari\WebDovizKurlari\bin\WebDovizKurlari.dll
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\WebDovizKurlari\WebDovizKurlari\bin\WebDovizKurlari.pdb
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\WebDovizKurlari\WebDovizKurlari\obj\Debug\WebDovizKurlari.dll
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\WebDovizKurlari\WebDovizKurlari\obj\Debug\WebDovizKurlari.pdb

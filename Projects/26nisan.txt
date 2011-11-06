@@ -1,0 +1,17 @@
+Hiddenfield; code behind tarafýndan eriþebileceðimiz bir hidden a ihtiyacýmýz var. <marquee></marquee> bu ilerleyen yazýlarý gösteren html kod. Bunun databaseden gelmesi ya da notepad den gelmesi için..
+Onun dýþýnda Adrotator ekleyerek farklý bannerlarý görüntülemeyi saðladýk.
+uploadýn eventine, httpCookie cerez=new HttpCookie("KullaniciBilgisi");
+cerez["KullaniciResim"]=FileUpload2.FileName;
+cerez.Expires=DateTime.Now;
+Response.Cookies.Add(cerez);
+img_KullaniciResim.ImageUrl= FileUpload2.FileName;
+..
+
+Kaydet butonu içine,  eðer uygulama klasörü içindeki kullanýcýresimleri içinde seçilen resim yoksa;
+..
+...
+//fileUpload.PostedFile.FileName: Dosyanýn Client üzerindei tam adresi
+//FileUpload.FileName : Sadece dosyaadý.Banner.jpg gibi
+
+
+en son yaptýðýmýz grid view dý, allow paging and page size 2 yaparsak direk yapýyor.sql data adapter gibi çalýþýyor ki bu online bir olay

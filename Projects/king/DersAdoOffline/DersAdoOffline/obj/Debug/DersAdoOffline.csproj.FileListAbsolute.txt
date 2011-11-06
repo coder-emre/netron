@@ -1,0 +1,9 @@
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\DersAdoOffline\DersAdoOffline\bin\Debug\DersAdoOffline.exe.config
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\DersAdoOffline\DersAdoOffline\bin\Debug\DersAdoOffline.exe
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\DersAdoOffline\DersAdoOffline\bin\Debug\DersAdoOffline.pdb
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\DersAdoOffline\DersAdoOffline\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\DersAdoOffline\DersAdoOffline\obj\Debug\DersAdoOffline.Form1.resources
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\DersAdoOffline\DersAdoOffline\obj\Debug\DersAdoOffline.Properties.Resources.resources
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\DersAdoOffline\DersAdoOffline\obj\Debug\DersAdoOffline.csproj.GenerateResource.Cache
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\DersAdoOffline\DersAdoOffline\obj\Debug\DersAdoOffline.exe
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\DersAdoOffline\DersAdoOffline\obj\Debug\DersAdoOffline.pdb

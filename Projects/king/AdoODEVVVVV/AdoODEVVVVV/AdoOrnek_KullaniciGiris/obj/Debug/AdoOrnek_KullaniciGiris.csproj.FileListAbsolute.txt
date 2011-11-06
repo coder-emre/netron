@@ -1,0 +1,8 @@
+C:\CORE3503\CORE3503\ASP.NET\AdoOrnek_KullaniciGiris\AdoOrnek_KullaniciGiris\obj\Debug\ResolveAssemblyReference.cache
+C:\CORE3503\CORE3503\ASP.NET\AdoOrnek_KullaniciGiris\AdoOrnek_KullaniciGiris\obj\Debug\AdoOrnek_KullaniciGiris.Form1.resources
+C:\CORE3503\CORE3503\ASP.NET\AdoOrnek_KullaniciGiris\AdoOrnek_KullaniciGiris\obj\Debug\AdoOrnek_KullaniciGiris.Properties.Resources.resources
+C:\CORE3503\CORE3503\ASP.NET\AdoOrnek_KullaniciGiris\AdoOrnek_KullaniciGiris\obj\Debug\AdoOrnek_KullaniciGiris.csproj.GenerateResource.Cache
+C:\CORE3503\CORE3503\ASP.NET\AdoOrnek_KullaniciGiris\AdoOrnek_KullaniciGiris\bin\Debug\AdoOrnek_KullaniciGiris.exe
+C:\CORE3503\CORE3503\ASP.NET\AdoOrnek_KullaniciGiris\AdoOrnek_KullaniciGiris\bin\Debug\AdoOrnek_KullaniciGiris.pdb
+C:\CORE3503\CORE3503\ASP.NET\AdoOrnek_KullaniciGiris\AdoOrnek_KullaniciGiris\obj\Debug\AdoOrnek_KullaniciGiris.exe
+C:\CORE3503\CORE3503\ASP.NET\AdoOrnek_KullaniciGiris\AdoOrnek_KullaniciGiris\obj\Debug\AdoOrnek_KullaniciGiris.pdb

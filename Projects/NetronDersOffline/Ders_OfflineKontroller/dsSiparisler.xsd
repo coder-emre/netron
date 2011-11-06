@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsSiparisler" targetNamespace="http://tempuri.org/dsSiparisler.xsd" xmlns:mstns="http://tempuri.org/dsSiparisler.xsd" xmlns="http://tempuri.org/dsSiparisler.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsSiparisler" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsSiparisler" msprop:Generator_UserDSName="dsSiparisler" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SiparisBaslik" msprop:Generator_UserTableName="SiparisBaslik" msprop:Generator_RowDeletedName="SiparisBaslikRowDeleted" msprop:Generator_TableClassName="SiparisBaslikDataTable" msprop:Generator_RowChangedName="SiparisBaslikRowChanged" msprop:Generator_RowClassName="SiparisBaslikRow" msprop:Generator_RowChangingName="SiparisBaslikRowChanging" msprop:Generator_RowEvArgName="SiparisBaslikRowChangeEvent" msprop:Generator_RowEvHandlerName="SiparisBaslikRowChangeEventHandler" msprop:Generator_TablePropName="SiparisBaslik" msprop:Generator_TableVarName="tableSiparisBaslik" msprop:Generator_RowDeletingName="SiparisBaslikRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SIPARISID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_UserColumnName="SIPARISID" msprop:Generator_ColumnPropNameInRow="SIPARISID" msprop:Generator_ColumnVarNameInTable="columnSIPARISID" msprop:Generator_ColumnPropNameInTable="SIPARISIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="MUSTERI" msprop:Generator_UserColumnName="MUSTERI" msprop:Generator_ColumnPropNameInRow="MUSTERI" msprop:Generator_ColumnVarNameInTable="columnMUSTERI" msprop:Generator_ColumnPropNameInTable="MUSTERIColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TUTAR" msprop:Generator_UserColumnName="TUTAR" msprop:Generator_ColumnPropNameInRow="TUTAR" msprop:Generator_ColumnVarNameInTable="columnTUTAR" msprop:Generator_ColumnPropNameInTable="TUTARColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TARIH" msprop:Generator_UserColumnName="TARIH" msprop:Generator_ColumnPropNameInRow="TARIH" msprop:Generator_ColumnVarNameInTable="columnTARIH" msprop:Generator_ColumnPropNameInTable="TARIHColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="MUSTERIRESMI" msprop:Generator_UserColumnName="MUSTERIRESMI" msprop:Generator_ColumnPropNameInRow="MUSTERIRESMI" msprop:Generator_ColumnVarNameInTable="columnMUSTERIRESMI" msprop:Generator_ColumnPropNameInTable="MUSTERIRESMIColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SiparisSatirlari" msprop:Generator_UserTableName="SiparisSatirlari" msprop:Generator_RowDeletedName="SiparisSatirlariRowDeleted" msprop:Generator_TableClassName="SiparisSatirlariDataTable" msprop:Generator_RowChangedName="SiparisSatirlariRowChanged" msprop:Generator_RowClassName="SiparisSatirlariRow" msprop:Generator_RowChangingName="SiparisSatirlariRowChanging" msprop:Generator_RowEvArgName="SiparisSatirlariRowChangeEvent" msprop:Generator_RowEvHandlerName="SiparisSatirlariRowChangeEventHandler" msprop:Generator_TablePropName="SiparisSatirlari" msprop:Generator_TableVarName="tableSiparisSatirlari" msprop:Generator_RowDeletingName="SiparisSatirlariRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SATIRID" msprop:Generator_UserColumnName="SATIRID" msprop:Generator_ColumnPropNameInRow="SATIRID" msprop:Generator_ColumnVarNameInTable="columnSATIRID" msprop:Generator_ColumnPropNameInTable="SATIRIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SIPARISID" msprop:Generator_UserColumnName="SIPARISID" msprop:Generator_ColumnPropNameInRow="SIPARISID" msprop:Generator_ColumnVarNameInTable="columnSIPARISID" msprop:Generator_ColumnPropNameInTable="SIPARISIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="URUNADI" msprop:Generator_UserColumnName="URUNADI" msprop:Generator_ColumnPropNameInRow="URUNADI" msprop:Generator_ColumnVarNameInTable="columnURUNADI" msprop:Generator_ColumnPropNameInTable="URUNADIColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ADET" msprop:Generator_UserColumnName="ADET" msprop:Generator_ColumnPropNameInRow="ADET" msprop:Generator_ColumnVarNameInTable="columnADET" msprop:Generator_ColumnPropNameInTable="ADETColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="SiparisBaslikKey1">
+      <xs:selector xpath=".//mstns:SiparisBaslik" />
+      <xs:field xpath="mstns:SIPARISID" />
+    </xs:unique>
+    <xs:unique name="SiparisSatirlariKey1">
+      <xs:selector xpath=".//mstns:SiparisSatirlari" />
+      <xs:field xpath="mstns:SATIRID" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="SiparisBaslik_SiparisSatirlari" msdata:parent="SiparisBaslik" msdata:child="SiparisSatirlari" msdata:parentkey="SIPARISID" msdata:childkey="SIPARISID" msprop:Generator_UserRelationName="SiparisBaslik_SiparisSatirlari" msprop:Generator_RelationVarName="relationSiparisBaslik_SiparisSatirlari" msprop:Generator_UserChildTable="SiparisSatirlari" msprop:Generator_UserParentTable="SiparisBaslik" msprop:Generator_ParentPropName="SiparisBaslikRow" msprop:Generator_ChildPropName="GetSiparisSatirlariRows" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

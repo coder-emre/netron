@@ -1,0 +1,8 @@
+C:\Documents and Settings\admin\Desktop\AjaxControlToolkit-Framework3.5SP1\AjaxControlToolkit\bin\Debug\AjaxControlToolkit.dll
+C:\Documents and Settings\admin\Desktop\AjaxControlToolkit-Framework3.5SP1\AjaxControlToolkit\bin\Debug\AjaxControlToolkit.pdb
+C:\Documents and Settings\admin\Desktop\AjaxControlToolkit-Framework3.5SP1\AjaxControlToolkit\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\admin\Desktop\AjaxControlToolkit-Framework3.5SP1\AjaxControlToolkit\obj\Debug\AjaxControlToolkit.Properties.Resources.resources
+C:\Documents and Settings\admin\Desktop\AjaxControlToolkit-Framework3.5SP1\AjaxControlToolkit\obj\Debug\AjaxControlToolkit.ScriptResources.ScriptResources.resources
+C:\Documents and Settings\admin\Desktop\AjaxControlToolkit-Framework3.5SP1\AjaxControlToolkit\obj\Debug\AjaxControlToolkit.csproj.GenerateResource.Cache
+C:\Documents and Settings\admin\Desktop\AjaxControlToolkit-Framework3.5SP1\AjaxControlToolkit\obj\Debug\AjaxControlToolkit.dll
+C:\Documents and Settings\admin\Desktop\AjaxControlToolkit-Framework3.5SP1\AjaxControlToolkit\obj\Debug\AjaxControlToolkit.pdb

@@ -1,0 +1,131 @@
+//Dün kursa gelmemiþtim, hoca deðiþkenleri iþlemiþ.Bugünse dosya iþlemlerine baþladýk. 
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Collections;// array list kolleksiyonu için ekledik
+using System.IO;
+
+namespace ConsoleApplication4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            baslangic:
+            Console.Clear();
+
+            Console.Write("bölüm :");
+            string bolum = Console.ReadLine();
+
+            Console.WriteLine("ad soyad:");
+             string adsoyad=Console.ReadLine();
+           StreamWriter sw =new StreamWriter(@"C:\Ogrenciler.txt", true);
+            sw.WriteLine(bolum+"@"+adsoyad);
+            sw.Close();
+            Console.WriteLine("kayýt iþlemi baþarýyla tamamlandý");
+          
+            Console.WriteLine("[1]> Yeni Kayýt");
+            Console.WriteLine("[2]> Öðrenci Listesi");
+            Console.WriteLine("[3]> Bölüm Listesi");
+            Console.WriteLine("[4]> Sýralý Bölüm Listesi");
+            Console.WriteLine("[5]> Bölüme Göre Listele");
+            Console.WriteLine("[6]> Çýkýþ");
+            string basilanTus=Console.ReadLine();
+            if(basilanTus=="1")
+            {
+            goto baslangic;
+            }
+            else if (basilanTus =="2")
+            {
+                StreamReader sr=new StreamReader(@"C:\Ogrenciler.txt");
+                    sbyte  ogrenciSayisi=1;
+                while (sr.Peek()!=-1)
+                {string satir =sr.ReadLine();
+                    string ogrenci=satir.Split('@')[1];
+                    Console.WriteLine("{0}.>{1}",ogrenciSayisi,ogrenci);
+                    ogrenciSayisi += 1;
+                } sr.Close();
+                Console.ReadLine();
+            }
+
+            else if (basilanTus == "3")
+            {
+                StreamReader sr = new StreamReader(@"C:\Ogrenciler.txt");
+                sbyte bolum1Sayisi = 1;
+                while (sr.Peek() != -1)
+                {
+                    string satir = sr.ReadLine();
+                    string bolum1 = satir.Split('@')[0];
+                    Console.WriteLine("{0}.>{1}", bolum1Sayisi,bolum1);
+
+                    //bolum bilgilerini sýralýyorum
+                    //modül baþlangýcý
+               
+                    //.. array listi içinde for döngüsüyle 
+                   bolum1Sayisi+=1;
+                } sr.Close();
+                Console.ReadLine();
+            }
+            else if (basilanTus=="4")
+            { StreamReader sr = new StreamReader(@"C:\Ogrenciler.txt");
+            ArrayList bolumListesi = new ArrayList();
+            while (sr.Peek() != -1)
+            {
+                string satir = sr.ReadLine();
+                string bolumAdi = satir.Split('@')[0];
+
+
+                //bolum bilgilerini sýralýyorum
+                //modül baþlangýcý
+                //array listin de contains metodu var bu nedenle distinct sýralamayý ancak bu þekilde yapýcaz
+                if (bolumListesi.Contains(bolumAdi)==false)
+                {
+                    bolumListesi.Add(bolumAdi);
+                }
+               
+            }
+                    sr.Close();
+                    bolumListesi.Sort();
+                    //.. array listi içinde for döngüsüyle 
+                    foreach (object icerik in bolumListesi)//koleksiyondan alýp içerik deðiþkenine atadý.
+                    {
+                        Console.WriteLine(icerik);
+                    }
+                    
+                Console.ReadLine();
+            }
+            if (basilanTus == "5")
+            {
+                StreamReader sr = new StreamReader(@"C:\Ogrenciler.txt");
+                Console.WriteLine("lütfen bölüm adýný giriniz:");
+                string bolum1 = Console.ReadLine().Trim();
+                while (sr.Peek() != -1)
+                {
+                  
+                    string satir = sr.ReadLine();
+                    if (satir.Split('@')[0] == bolum1)
+                    {
+                        Console.WriteLine(satir.Split('@')[1]);
+                    }
+                 
+                  
+                } sr.Close();
+             
+                Console.ReadLine();
+
+            }
+
+            else if (basilanTus == "6")
+            {
+                return;
+            }
+        }
+    }
+}
+
+dizi olayý
+object[] karma=new object[] {"ali",10,5}// value type olduðundan bellekte fazladan yer iþgal eder. Bu nedenle pek kullanmak istemiyoruz. Ama ayný deðer olmak zorunda deðil. dizinin tipi önemli deðil, boyutu önemli deðilse kolleksiyon kullanmak zorundayýz.
+referans denilen tip bellekte yer tutmaz, direkt çaðrýlýnca gelir.
+kayýtlarý 5 5 bölüp sayfalama yapýcaz.

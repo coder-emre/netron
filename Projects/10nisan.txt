@@ -1,0 +1,22 @@
+ASP, hosting ve domain kavramlarý..milliyet.com--> DHCP-> IP 
+IIS -> index.html
+	default.html
+cs/vb göndermiyoruz! web server ve mail server a ihtiyacýmýz vardý. PWS--> en eski web serverdýr.(windows 95)
+IIS XP.Win2K(Internet information services)
+
+Veritabanýna ihtiyaç duymayan kýsýmlar client side uygulamalar denir. Sayfayý post back yapmak..
+asp.asp.x dosyalar varsa bunu browser gösteremez. IIS server componeneti olduðu için hosting serverda çalýþýýr. IIS Asp ile sql e baðlanýr. HTML e çevirme iþini gerçekleþtiriyor.Browser ýn anlayabileceði þekle gelir.Biri server üzerinde çalýþacak, diðeri IIS tarafýnda çalýþacak..
+ASP de <%%>
+IIS default olarak bir sayfa, .net kullanýyorsak IIS e gerek yok. Virtual Directory  ile dosyamýzý root klasöründe yaptýðýmýz gibi yorumlama iþlemi.. isimini asp de yazdýðým anda kiþisel sayfam ý çalýþtýrabilirim.
+. net,le aspx göreceðimiz kýsým. web config bir xml sayfasý. deðiþebilen þeyleri saklamak. app. config. deki mantýk ayný.
+external bir property eklemek istiyorsak. Reporting services?
+HTML ye geçtik; tables-> kolonlar <td>satýrlar<tr>
+span html olmasýnýn yanýnda eðer server tarafýnda olssaydýk css class diyecektik.
+span-> etiket. 
+
+____________
+	    |
+|
+|
+|
+|___________|

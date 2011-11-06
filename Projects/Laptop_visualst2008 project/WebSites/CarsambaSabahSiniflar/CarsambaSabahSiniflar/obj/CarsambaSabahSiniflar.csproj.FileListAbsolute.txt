@@ -1,0 +1,5 @@
+D:\Documents and Settings\esra\Belgelerim\Visual Studio 2005\Projects\CarsambaSabahSiniflar\CarsambaSabahSiniflar\bin\Debug\CarsambaSabahSiniflar.dll
+D:\Documents and Settings\esra\Belgelerim\Visual Studio 2005\Projects\CarsambaSabahSiniflar\CarsambaSabahSiniflar\bin\Debug\CarsambaSabahSiniflar.pdb
+D:\Documents and Settings\esra\Belgelerim\Visual Studio 2005\Projects\CarsambaSabahSiniflar\CarsambaSabahSiniflar\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\esra\Belgelerim\Visual Studio 2005\Projects\CarsambaSabahSiniflar\CarsambaSabahSiniflar\obj\Debug\CarsambaSabahSiniflar.dll
+D:\Documents and Settings\esra\Belgelerim\Visual Studio 2005\Projects\CarsambaSabahSiniflar\CarsambaSabahSiniflar\obj\Debug\CarsambaSabahSiniflar.pdb

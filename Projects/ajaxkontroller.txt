@@ -1,0 +1,12 @@
+ajax kontroller 
+<--Filter textbox-->
+custom, number dedik.. valid chars ve invalid charslarý kendimiz ayarlayabiliriz.
+maskeditextender ekledik. Diðerlerine göre daha fazla özelliði olan bir yapý bu.
+
+--->tab controler. update panel önemli..
+--->modalpopup--> kullanýþlý bi hadise. div gizleniyor. bir katmanla arkadaki ekrana hiç dokunamýyor. raporlarda 
+kullanýlýyor.
+-->password extender özellikleri asp.net sayfasýndan öðrenip sayfana ekleyebilirsin.
+
+-->autocomplete demonstration -- veritabanýndan sonuçlarý bir array olarak getirebiliyor.
+script manager olmalý

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ISLEMLER>
+  <Bayiler aciklama="Menu İptal Edildi" gidecekAdres="iptal.aspx" resim=""></Bayiler>
+  <Servisler aciklama="Servis Listesi" gidecekAdres="servisler.aspx" resim=""></Servisler>
+</ISLEMLER>

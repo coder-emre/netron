@@ -1,0 +1,9 @@
+c:\103PD103\Ders_AdonetOffline\Ders_AdonetOffline\bin\Debug\Ders_AdonetOffline.exe.config
+c:\103PD103\Ders_AdonetOffline\Ders_AdonetOffline\bin\Debug\Ders_AdonetOffline.exe
+c:\103PD103\Ders_AdonetOffline\Ders_AdonetOffline\bin\Debug\Ders_AdonetOffline.pdb
+c:\103PD103\Ders_AdonetOffline\Ders_AdonetOffline\obj\Debug\ResolveAssemblyReference.cache
+c:\103PD103\Ders_AdonetOffline\Ders_AdonetOffline\obj\Debug\Ders_AdonetOffline.Form1.resources
+c:\103PD103\Ders_AdonetOffline\Ders_AdonetOffline\obj\Debug\Ders_AdonetOffline.Properties.Resources.resources
+c:\103PD103\Ders_AdonetOffline\Ders_AdonetOffline\obj\Debug\Ders_AdonetOffline.csproj.GenerateResource.Cache
+c:\103PD103\Ders_AdonetOffline\Ders_AdonetOffline\obj\Debug\Ders_AdonetOffline.exe
+c:\103PD103\Ders_AdonetOffline\Ders_AdonetOffline\obj\Debug\Ders_AdonetOffline.pdb

@@ -1,0 +1,12 @@
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\evkur\evkur\bin\Debug\evkur.exe
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\evkur\evkur\bin\Debug\evkur.pdb
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\evkur\evkur\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\evkur\evkur\obj\Debug\evkur.Form1.resources
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\evkur\evkur\obj\Debug\evkur.Properties.Resources.resources
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\evkur\evkur\obj\Debug\evkur.csproj.GenerateResource.Cache
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\evkur\evkur\obj\Debug\evkur.exe
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\evkur\evkur\obj\Debug\evkur.pdb
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\evkur\evkur\obj\Debug\evkur.menu.resources
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\evkur\evkur\obj\Debug\evkur.stoklar.resources
+F:\evkur\evkur\obj\Debug\evkur.exe
+F:\evkur\evkur\obj\Debug\evkur.pdb

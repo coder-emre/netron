@@ -1,0 +1,5 @@
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\EmekKuyumcusu\EmekKuyumcusu\bin\EmekKuyumcusu.dll
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\EmekKuyumcusu\EmekKuyumcusu\bin\EmekKuyumcusu.pdb
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\EmekKuyumcusu\EmekKuyumcusu\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\EmekKuyumcusu\EmekKuyumcusu\obj\Debug\EmekKuyumcusu.dll
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\EmekKuyumcusu\EmekKuyumcusu\obj\Debug\EmekKuyumcusu.pdb

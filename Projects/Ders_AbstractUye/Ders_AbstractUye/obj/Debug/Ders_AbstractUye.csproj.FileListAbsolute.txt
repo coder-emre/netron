@@ -1,0 +1,8 @@
+C:\Documents and Settings\.NET\My Documents\Visual Studio 2008\Projects\Ders_AbstractUye\Ders_AbstractUye\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\.NET\My Documents\Visual Studio 2008\Projects\Ders_AbstractUye\Ders_AbstractUye\obj\Debug\Ders_AbstractUye.Form1.resources
+C:\Documents and Settings\.NET\My Documents\Visual Studio 2008\Projects\Ders_AbstractUye\Ders_AbstractUye\obj\Debug\Ders_AbstractUye.Properties.Resources.resources
+C:\Documents and Settings\.NET\My Documents\Visual Studio 2008\Projects\Ders_AbstractUye\Ders_AbstractUye\obj\Debug\Ders_AbstractUye.csproj.GenerateResource.Cache
+C:\Documents and Settings\.NET\My Documents\Visual Studio 2008\Projects\Ders_AbstractUye\Ders_AbstractUye\bin\Debug\Ders_AbstractUye.exe
+C:\Documents and Settings\.NET\My Documents\Visual Studio 2008\Projects\Ders_AbstractUye\Ders_AbstractUye\bin\Debug\Ders_AbstractUye.pdb
+C:\Documents and Settings\.NET\My Documents\Visual Studio 2008\Projects\Ders_AbstractUye\Ders_AbstractUye\obj\Debug\Ders_AbstractUye.exe
+C:\Documents and Settings\.NET\My Documents\Visual Studio 2008\Projects\Ders_AbstractUye\Ders_AbstractUye\obj\Debug\Ders_AbstractUye.pdb

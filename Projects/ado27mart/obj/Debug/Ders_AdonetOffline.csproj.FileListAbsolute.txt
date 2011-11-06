@@ -1,0 +1,24 @@
+c:\103PD103\Ders_AdonetOffline\Ders_AdonetOffline\bin\Debug\Ders_AdonetOffline.exe.config
+c:\103PD103\Ders_AdonetOffline\Ders_AdonetOffline\bin\Debug\Ders_AdonetOffline.exe
+c:\103PD103\Ders_AdonetOffline\Ders_AdonetOffline\bin\Debug\Ders_AdonetOffline.pdb
+c:\103PD103\Ders_AdonetOffline\Ders_AdonetOffline\obj\Debug\ResolveAssemblyReference.cache
+c:\103PD103\Ders_AdonetOffline\Ders_AdonetOffline\obj\Debug\Ders_AdonetOffline.Form1.resources
+c:\103PD103\Ders_AdonetOffline\Ders_AdonetOffline\obj\Debug\Ders_AdonetOffline.Properties.Resources.resources
+c:\103PD103\Ders_AdonetOffline\Ders_AdonetOffline\obj\Debug\Ders_AdonetOffline.csproj.GenerateResource.Cache
+c:\103PD103\Ders_AdonetOffline\Ders_AdonetOffline\obj\Debug\Ders_AdonetOffline.exe
+c:\103PD103\Ders_AdonetOffline\Ders_AdonetOffline\obj\Debug\Ders_AdonetOffline.pdb
+C:\Documents and Settings\admin\Desktop\Ders_AdonetOffline\bin\Debug\Ders_AdonetOffline.exe.config
+C:\Documents and Settings\admin\Desktop\Ders_AdonetOffline\obj\Debug\Ders_AdonetOffline.exe
+C:\Documents and Settings\admin\Desktop\Ders_AdonetOffline\obj\Debug\Ders_AdonetOffline.pdb
+C:\Documents and Settings\admin\Desktop\Ders_AdonetOffline\bin\Debug\Ders_AdonetOffline.exe
+C:\Documents and Settings\admin\Desktop\Ders_AdonetOffline\bin\Debug\Ders_AdonetOffline.pdb
+C:\Documents and Settings\admin\Desktop\Ders_AdonetOffline\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\admin\Desktop\Ders_AdonetOffline\obj\Debug\Ders_AdonetOffline.Form1.resources
+C:\Documents and Settings\admin\Desktop\Ders_AdonetOffline\obj\Debug\Ders_AdonetOffline.Properties.Resources.resources
+C:\Documents and Settings\admin\Desktop\Ders_AdonetOffline\obj\Debug\Ders_AdonetOffline.csproj.GenerateResource.Cache
+G:\ado27mart\bin\Debug\Ders_AdonetOffline.exe.config
+G:\ado27mart\obj\Debug\Ders_AdonetOffline.exe
+G:\ado27mart\obj\Debug\ResolveAssemblyReference.cache
+G:\ado27mart\obj\Debug\Ders_AdonetOffline.Form1.resources
+G:\ado27mart\obj\Debug\Ders_AdonetOffline.Properties.Resources.resources
+G:\ado27mart\obj\Debug\Ders_AdonetOffline.csproj.GenerateResource.Cache

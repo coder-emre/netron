@@ -1,0 +1,90 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Collections;
+
+namespace AdrV01
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            int i = 0;
+            int j=0;
+            int k=0;
+           
+            Console.WriteLine("kullanýcý adýný giriniz:");
+            string kullanici = Console.ReadLine();
+            Console.WriteLine("sifreyi giriniz:");
+            string sifre = Console.ReadLine();
+
+            ArrayList kullanicilar = new ArrayList();
+            ArrayList soyadlar = new ArrayList();
+            ArrayList telefonlar = new ArrayList();
+            DateTime[] dogumtarihi = new DateTime[10];
+         
+            if (kullanici == "netron" && sifre == "1234") 
+            {
+                Console.WriteLine("1- Kullanýcý girisi yap");
+                Console.WriteLine("2- Kullanýcý arama yap");
+                string giris = Console.ReadLine();
+                switch(giris)
+                {
+                    case "1":
+                        {
+                            for (i=0; i < 10; i++)
+                            {
+                                Console.WriteLine("kullanýcý adý giriniz:");
+                                string kullanicim = Console.ReadLine();
+                                kullanicilar.Add(kullanicim);
+                                for (j=0; j <10; j++)
+                                {
+                                    Console.WriteLine("soyadý giriniz:"); 
+                                    string soyadim = Console.ReadLine();
+                                    soyadlar.Add(soyadim);
+                                    for (k=0; k < 10; k++)
+                                    {
+                                        Console.WriteLine("telefon numarasý giriniz:");
+                                        string tel = Console.ReadLine();
+                                        telefonlar.Add(tel);
+                                        Console.WriteLine("kaydedip yeni kullanici girisi yapmak icin 3");
+                                        Console.WriteLine("kaydedip arama yapmak icin 2 ye basýnýz");
+                                        string tekrar = Console.ReadLine();
+                                        int t = int.Parse(tekrar);
+                                        if (t == 3)
+                                        {
+                                            goto case "1";
+                                        }
+                                        else if (t == 2)
+                                        {
+                                            goto case "2";
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine("lütfen 2 yada 3 ü tuþlayýnýz");
+                                        }
+
+
+                                    }
+                                }
+                         
+                            }
+                        }
+                        break;
+                        case "2":
+                        Console.WriteLine("arayacagýnýz ismi giriniz");
+                        string arama = Console.ReadLine();
+                        int pro=kullanicilar.BinarySearch(arama);
+                        Console.WriteLine("kullanýcý adý:{0}",kullanicilar[pro]);
+                        Console.WriteLine("kullanici soyadý:{0}", soyadlar[pro]);
+                        Console.WriteLine("kullanýcý telefonu:{0}", telefonlar[pro]);
+                        Console.ReadLine();
+                        break;
+
+                        }       
+                }
+            }
+        }
+    }

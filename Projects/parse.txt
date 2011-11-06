@@ -1,0 +1,131 @@
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Collections;
+
+namespace AdrV01
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int i = 0;
+            int j = 0;
+            int k = 0;
+            int l = 0;
+           
+            Console.WriteLine("kullanýcý adýný giriniz:");
+            string kullanici = Console.ReadLine();
+            Console.WriteLine("sifreyi giriniz:");
+            string sifre = Console.ReadLine();
+
+            string[] kullanicilar = new string[10];
+            string[] soyadlar = new string[10];
+            string[] telefonlar = new string[10];
+            DateTime[] dogumtarihi = new DateTime[10];
+
+            if (kullanici == "netron" && sifre == "1234")
+            {
+                Console.WriteLine("1- Kullanýcý girisi yap");
+                Console.WriteLine("2- Kullanýcý arama yap");
+                string giris = Console.ReadLine();
+                switch (giris)
+                {
+                    case "1":
+                        {
+                            for (i = 0; i < 10; i++)
+                            {
+                            turn:
+                                Console.WriteLine("kullanýcý adý giriniz:");
+                                kullanicilar[i] = Console.ReadLine();
+
+                                for (j = 0; j < 10; j++)
+                                {
+                                    Console.WriteLine("soyadý giriniz:");
+                                    soyadlar[j] = Console.ReadLine();
+                                          
+                                   for (l=0; l < 10; l++)
+                                        {
+                                          Console.WriteLine("dogum tarihini giriniz:");
+                                          String dt = string.Parse(dogumtarihi);
+                                          dt = Console.ReadLine();
+                                          for (k = 0; k < 10; k++)
+                                          {
+                                              Console.WriteLine("telefon numarasý giriniz:");
+                                              telefonlar[k] = Console.ReadLine();
+                                              Console.WriteLine("kaydedip yeni kullanici girisi yapmak icin 3");
+                                              Console.WriteLine("kaydedip arama yapmak icin 2 ye basýnýz");
+                                              string tekrar = Console.ReadLine();
+                                              int t = int.Parse(tekrar);
+                                              if (t == 3)
+                                              {
+                                                  goto turn;
+                                              }
+                                              else if (t == 2)
+                                              {
+                                                  goto case "2";
+                                              }
+                                              else
+                                              {
+                                                  Console.WriteLine("lütfen 2 yada 3 ü tuþlayýnýz");
+                                              }
+                                          }
+
+                                    }
+                                }
+
+                            }
+                        }
+                        break;
+                    case "2":
+                        Console.WriteLine("arayacagýnýz ismi giriniz");
+                        string arama = Console.ReadLine();
+                        for (int m = 0; m < 10; m++)
+                        {
+                            if (arama == kullanicilar[i])
+                                Console.WriteLine("{0}-{1}-{2}", kullanicilar[i], soyadlar[j], telefonlar[k],dogumtarihi[l]);
+                            i++;
+                            j++;
+                            k++;
+                            l++;
+                            Console.ReadLine();
+
+
+                        }
+
+                        break;
+                }
+            }
+            else {
+                Console.WriteLine("yanlýþ kullanýcý adý veya sýfre");
+                Console.ReadLine();
+         
+            }
+
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            sonuc = Console.ReadLine();
+            DTarih = DateTime.Parse(sonuc);
+            Console.WriteLine("Seni {0} tarihinde unutmayacaðým.",DTarih);

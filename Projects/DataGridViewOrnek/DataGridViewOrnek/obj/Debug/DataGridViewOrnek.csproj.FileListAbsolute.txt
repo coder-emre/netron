@@ -1,0 +1,5 @@
+C:\Documents and Settings\admin\Desktop\1_Mayis\DataGridViewOrnek\DataGridViewOrnek\bin\DataGridViewOrnek.dll
+C:\Documents and Settings\admin\Desktop\1_Mayis\DataGridViewOrnek\DataGridViewOrnek\bin\DataGridViewOrnek.pdb
+C:\Documents and Settings\admin\Desktop\1_Mayis\DataGridViewOrnek\DataGridViewOrnek\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\admin\Desktop\1_Mayis\DataGridViewOrnek\DataGridViewOrnek\obj\Debug\DataGridViewOrnek.dll
+C:\Documents and Settings\admin\Desktop\1_Mayis\DataGridViewOrnek\DataGridViewOrnek\obj\Debug\DataGridViewOrnek.pdb

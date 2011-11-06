@@ -1,0 +1,8 @@
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\DERS_ADO_OFFLINE2\DERS_ADO_OFFLINE2\bin\Debug\DERS_ADO_OFFLINE2.exe
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\DERS_ADO_OFFLINE2\DERS_ADO_OFFLINE2\bin\Debug\DERS_ADO_OFFLINE2.pdb
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\DERS_ADO_OFFLINE2\DERS_ADO_OFFLINE2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\DERS_ADO_OFFLINE2\DERS_ADO_OFFLINE2\obj\Debug\DERS_ADO_OFFLINE2.Form1.resources
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\DERS_ADO_OFFLINE2\DERS_ADO_OFFLINE2\obj\Debug\DERS_ADO_OFFLINE2.Properties.Resources.resources
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\DERS_ADO_OFFLINE2\DERS_ADO_OFFLINE2\obj\Debug\DERS_ADO_OFFLINE2.csproj.GenerateResource.Cache
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\DERS_ADO_OFFLINE2\DERS_ADO_OFFLINE2\obj\Debug\DERS_ADO_OFFLINE2.exe
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\DERS_ADO_OFFLINE2\DERS_ADO_OFFLINE2\obj\Debug\DERS_ADO_OFFLINE2.pdb

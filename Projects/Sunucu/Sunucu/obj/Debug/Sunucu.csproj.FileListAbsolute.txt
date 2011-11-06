@@ -1,0 +1,7 @@
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\Sunucu\Sunucu\bin\Debug\Sunucu.exe
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\Sunucu\Sunucu\bin\Debug\Sunucu.pdb
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\Sunucu\Sunucu\bin\Debug\UzakNesne.dll
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\Sunucu\Sunucu\bin\Debug\UzakNesne.pdb
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\Sunucu\Sunucu\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\Sunucu\Sunucu\obj\Debug\Sunucu.exe
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\Sunucu\Sunucu\obj\Debug\Sunucu.pdb

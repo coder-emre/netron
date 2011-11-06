@@ -1,0 +1,5 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\DersKontroller2\DersKontroller2\bin\DersKontroller2.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\DersKontroller2\DersKontroller2\bin\DersKontroller2.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\DersKontroller2\DersKontroller2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\DersKontroller2\DersKontroller2\obj\Debug\DersKontroller2.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\DersKontroller2\DersKontroller2\obj\Debug\DersKontroller2.pdb

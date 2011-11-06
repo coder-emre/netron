@@ -1,0 +1,12 @@
+AJAX---> bir ajaxýn çalýþmasý için script manager olmasý lazým..
+Tüm nesnelerde ortak olan özellikler targetcontrolid
+watermarktext="lütfen sadece kullanýcý adýný giriniz" olarak deðiþebilir.
+Her toolkit nesnesi bir class çaðýrabiliyor. mesela o yazýyý gri yazmak istersek css çaðýrabilirim.
+.aramatxt
+{
+font-family:verdana;
+font-size:11px;
+}
+
+Source a geldiðimizde;         <cc1:TextBoxWatermarkExtender  ID=III WatermarkText=" Buraya isim giriniz"         runat="server" Enabled="True" TargetControlID="TextBox1" WatermarkCssClass=aramaTXT >
+        </cc1:TextBoxWatermarkExtender>

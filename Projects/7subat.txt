@@ -1,0 +1,27 @@
+7 þ
+
+*Windows formda önce panel, treeview ve sonrasýnda label ile "toplam müþteri sayýsý, toplam emlak sayýsýný gösteriyoruz.
+sln, solution dosyasýdýr. proje olarak .net içinde açýlýr 
+timer görsellik açýsýndan projeye bir þey katmaz. Bunun yerine özelliklerden ayarý yapýlýr. namespace ve framework -- kategori ayrýmý..
+get, set ya da her ikisi kullanýlabilir, get olmasý deðer atama söz konusu deðil. fakat, o özelliði çaðýrdýðýmýzda deðer döndürür.
+Bu yapýyý kullanma amacýmýz,
+
+katman yapýsý Sunum katmaný, iþ katmaný, veri katmaný
+-form					 Veri tabanýna ulaþtýðýmýzkýsým
+-user kontroller
+-aspx
+-kýsýtlayýcýlar ve error providerlar sunum
+
+--> Ýþ katmanýnda veritabanýna baðlanma durumumuz yok. burdan direk get
+ve set i kullanabileceðimiz bir kaydet void ile bu sýkýntýyý aþabiliriz.
+oluþan hatayý özelliklerde tutabiliriz ya da kendi içinde tutulabilir.
+--> bir katman içinde birden fazla class oluþturabiliriz.
+
+-->eriþim access methodlarýný bilmemiz lazým ki bunlardan biri private diðeri ise public
+herhangi bir classýn public olmasý demek,bir methodun birden fazla sýnýf tarafýndan kullanýlmasý anlamýný taþýr.
+eðer private tanýmlandýysa sadece özel bir sýnýf tarafýndan kullanýlabileceðini söyleyebiliriz.
+
+-->2. ders
+User kontrol a form iþlemlerinden kurtulmayý saðlar. 
+list view kullandýk, group box ýn içine..
+namespace KelepirEmlakOfisi diyip design,

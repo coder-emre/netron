@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="dsYW">
+      <rd:DataSourceID>442bad4e-b9e4-49cd-bbab-d71ee61957f3</rd:DataSourceID>
+      <DataSourceReference>dsYW</DataSourceReference>
+    </DataSource>
+  </DataSources>
+  <InteractiveHeight>29.7cm</InteractiveHeight>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>21cm</InteractiveWidth>
+  <rd:GridSpacing>0.25cm</rd:GridSpacing>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <RightMargin>2.5cm</RightMargin>
+  <LeftMargin>2.5cm</LeftMargin>
+  <BottomMargin>2.5cm</BottomMargin>
+  <rd:ReportID>3e13a187-d70a-4992-bd4c-549b44f8ee5b</rd:ReportID>
+  <PageWidth>21cm</PageWidth>
+  <DataSets>
+    <DataSet Name="dstBolgeSatisAnaliz">
+      <Fields>
+        <Field Name="BolgeId">
+          <DataField>BolgeId</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="BolgeAdi">
+          <DataField>BolgeAdi</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MagazaId">
+          <DataField>MagazaId</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="MagazaAdi">
+          <DataField>MagazaAdi</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="FaturaId">
+          <DataField>FaturaId</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Tarih">
+          <DataField>Tarih</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="FaturaSatirId">
+          <DataField>FaturaSatirId</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="UrunId">
+          <DataField>UrunId</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="UrunAdi">
+          <DataField>UrunAdi</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Adet">
+          <DataField>Adet</DataField>
+          <rd:TypeName>System.Int16</rd:TypeName>
+        </Field>
+        <Field Name="BirimFiyat">
+          <DataField>BirimFiyat</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="AltKategoriId">
+          <DataField>AltKategoriId</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="AltKategoriAdi">
+          <DataField>AltKategoriAdi</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>dsYW</DataSourceName>
+        <CommandText>SELECT     TOP (500) BolgeId, BolgeAdi, MagazaId, MagazaAdi, FaturaId, Tarih, FaturaSatirId, UrunId, UrunAdi, Adet, BirimFiyat, AltKategoriId, AltKategoriAdi
+FROM         BolgelereGoreMagazaSatisListesi</CommandText>
+      </Query>
+    </DataSet>
+  </DataSets>
+  <Width>16cm</Width>
+  <Body>
+    <ColumnSpacing>1cm</ColumnSpacing>
+    <ReportItems>
+      <Matrix Name="matrix1">
+        <MatrixColumns>
+          <MatrixColumn>
+            <Width>4.875cm</Width>
+          </MatrixColumn>
+        </MatrixColumns>
+        <DataSetName>dstBolgeSatisAnaliz</DataSetName>
+        <RowGroupings>
+          <RowGrouping>
+            <Width>4.875cm</Width>
+            <DynamicRows>
+              <Grouping Name="matrix1_AltKategoriAdi">
+                <GroupExpressions>
+                  <GroupExpression>=Fields!AltKategoriAdi.Value</GroupExpression>
+                </GroupExpressions>
+              </Grouping>
+              <ReportItems>
+                <Textbox Name="AltKategoriAdi">
+                  <rd:DefaultName>AltKategoriAdi</rd:DefaultName>
+                  <Style>
+                    <BackgroundColor>Yellow</BackgroundColor>
+                    <BorderStyle>
+                      <Default>Solid</Default>
+                    </BorderStyle>
+                    <PaddingLeft>2pt</PaddingLeft>
+                    <PaddingRight>2pt</PaddingRight>
+                    <PaddingTop>2pt</PaddingTop>
+                    <PaddingBottom>2pt</PaddingBottom>
+                  </Style>
+                  <ZIndex>2</ZIndex>
+                  <CanGrow>true</CanGrow>
+                  <Value>=Fields!AltKategoriAdi.Value</Value>
+                </Textbox>
+              </ReportItems>
+            </DynamicRows>
+          </RowGrouping>
+          <RowGrouping>
+            <Width>4.875cm</Width>
+            <DynamicRows>
+              <Grouping Name="matrix1_UrunAdi">
+                <GroupExpressions>
+                  <GroupExpression>=Fields!UrunAdi.Value</GroupExpression>
+                </GroupExpressions>
+              </Grouping>
+              <Visibility>
+                <Hidden>true</Hidden>
+                <ToggleItem>AltKategoriAdi</ToggleItem>
+              </Visibility>
+              <ReportItems>
+                <Textbox Name="UrunAdi">
+                  <rd:DefaultName>UrunAdi</rd:DefaultName>
+                  <Style>
+                    <BorderStyle>
+                      <Default>Solid</Default>
+                    </BorderStyle>
+                    <PaddingLeft>2pt</PaddingLeft>
+                    <PaddingRight>2pt</PaddingRight>
+                    <PaddingTop>2pt</PaddingTop>
+                    <PaddingBottom>2pt</PaddingBottom>
+                  </Style>
+                  <ZIndex>1</ZIndex>
+                  <CanGrow>true</CanGrow>
+                  <Value>=Fields!UrunAdi.Value</Value>
+                </Textbox>
+              </ReportItems>
+            </DynamicRows>
+          </RowGrouping>
+        </RowGroupings>
+        <Top>0.75cm</Top>
+        <ColumnGroupings>
+          <ColumnGrouping>
+            <Height>0.63492cm</Height>
+            <DynamicColumns>
+              <Grouping Name="matrix1_BolgeAdi">
+                <GroupExpressions>
+                  <GroupExpression>=Fields!BolgeAdi.Value</GroupExpression>
+                </GroupExpressions>
+              </Grouping>
+              <ReportItems>
+                <Textbox Name="BolgeAdi">
+                  <rd:DefaultName>BolgeAdi</rd:DefaultName>
+                  <Style>
+                    <BackgroundColor>Gainsboro</BackgroundColor>
+                    <BorderStyle>
+                      <Default>Solid</Default>
+                    </BorderStyle>
+                    <PaddingLeft>2pt</PaddingLeft>
+                    <PaddingRight>2pt</PaddingRight>
+                    <PaddingTop>2pt</PaddingTop>
+                    <PaddingBottom>2pt</PaddingBottom>
+                  </Style>
+                  <ZIndex>4</ZIndex>
+                  <CanGrow>true</CanGrow>
+                  <Value>=Fields!BolgeAdi.Value</Value>
+                </Textbox>
+              </ReportItems>
+            </DynamicColumns>
+          </ColumnGrouping>
+          <ColumnGrouping>
+            <Height>0.63492cm</Height>
+            <DynamicColumns>
+              <Grouping Name="matrix1_MagazaAdi">
+                <GroupExpressions>
+                  <GroupExpression>=Fields!MagazaAdi.Value</GroupExpression>
+                </GroupExpressions>
+              </Grouping>
+              <Visibility>
+                <Hidden>true</Hidden>
+                <ToggleItem>BolgeAdi</ToggleItem>
+              </Visibility>
+              <ReportItems>
+                <Textbox Name="MagazaAdi">
+                  <rd:DefaultName>MagazaAdi</rd:DefaultName>
+                  <Visibility>
+                    <ToggleItem>BolgeAdi</ToggleItem>
+                  </Visibility>
+                  <Style>
+                    <BackgroundColor>Red</BackgroundColor>
+                    <BorderStyle>
+                      <Default>Solid</Default>
+                    </BorderStyle>
+                    <PaddingLeft>2pt</PaddingLeft>
+                    <PaddingRight>2pt</PaddingRight>
+                    <PaddingTop>2pt</PaddingTop>
+                    <PaddingBottom>2pt</PaddingBottom>
+                  </Style>
+                  <ZIndex>3</ZIndex>
+                  <CanGrow>true</CanGrow>
+                  <Value>=Fields!MagazaAdi.Value</Value>
+                </Textbox>
+              </ReportItems>
+            </DynamicColumns>
+          </ColumnGrouping>
+        </ColumnGroupings>
+        <Width>14.625cm</Width>
+        <Corner>
+          <ReportItems>
+            <Textbox Name="textbox1">
+              <rd:DefaultName>textbox1</rd:DefaultName>
+              <Style>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+              <ZIndex>5</ZIndex>
+              <CanGrow>true</CanGrow>
+              <Value />
+            </Textbox>
+          </ReportItems>
+        </Corner>
+        <MatrixRows>
+          <MatrixRow>
+            <Height>0.63492cm</Height>
+            <MatrixCells>
+              <MatrixCell>
+                <ReportItems>
+                  <Textbox Name="Adet">
+                    <rd:DefaultName>Adet</rd:DefaultName>
+                    <Style>
+                      <FontWeight>=IIF(Fields!Adet.Value &gt;= 3,"Bold","Normal")</FontWeight>
+                      <TextAlign>Right</TextAlign>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                    <CanGrow>true</CanGrow>
+                    <Value>=Sum(Fields!Adet.Value)</Value>
+                  </Textbox>
+                </ReportItems>
+              </MatrixCell>
+            </MatrixCells>
+          </MatrixRow>
+        </MatrixRows>
+        <Height>1.90476cm</Height>
+        <Left>1cm</Left>
+      </Matrix>
+    </ReportItems>
+    <Height>5cm</Height>
+  </Body>
+  <Language>en-US</Language>
+  <TopMargin>2.5cm</TopMargin>
+  <PageHeight>29.7cm</PageHeight>
+</Report>

@@ -1,0 +1,10 @@
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\Ders_OfflineKontroller\Ders_OfflineKontroller\bin\Debug\Ders_OfflineKontroller.exe
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\Ders_OfflineKontroller\Ders_OfflineKontroller\bin\Debug\Ders_OfflineKontroller.pdb
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\Ders_OfflineKontroller\Ders_OfflineKontroller\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\Ders_OfflineKontroller\Ders_OfflineKontroller\obj\Debug\Ders_OfflineKontroller.Form1.resources
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\Ders_OfflineKontroller\Ders_OfflineKontroller\obj\Debug\Ders_OfflineKontroller.Properties.Resources.resources
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\Ders_OfflineKontroller\Ders_OfflineKontroller\obj\Debug\Ders_OfflineKontroller.csproj.GenerateResource.Cache
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\Ders_OfflineKontroller\Ders_OfflineKontroller\obj\Debug\Ders_OfflineKontroller.exe
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\Ders_OfflineKontroller\Ders_OfflineKontroller\obj\Debug\Ders_OfflineKontroller.pdb
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\Ders_OfflineKontroller\Ders_OfflineKontroller\bin\Debug\Ders_OfflineKontroller.exe.config
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\Ders_OfflineKontroller\Ders_OfflineKontroller\obj\Debug\Ders_OfflineKontroller.Form2.resources

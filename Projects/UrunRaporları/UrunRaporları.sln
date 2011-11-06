@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "UrunRaporları", "UrunRaporları\UrunRaporları.rptproj", "{DDD84457-5536-43E0-9D11-FC130B60799C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Production|Default = Production|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDD84457-5536-43E0-9D11-FC130B60799C}.Debug|Default.ActiveCfg = Debug
+		{DDD84457-5536-43E0-9D11-FC130B60799C}.Debug|Default.Build.0 = DebugLocal
+		{DDD84457-5536-43E0-9D11-FC130B60799C}.Debug|Default.Deploy.0 = DebugLocal
+		{DDD84457-5536-43E0-9D11-FC130B60799C}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{DDD84457-5536-43E0-9D11-FC130B60799C}.DebugLocal|Default.Build.0 = DebugLocal
+		{DDD84457-5536-43E0-9D11-FC130B60799C}.Production|Default.ActiveCfg = Production
+		{DDD84457-5536-43E0-9D11-FC130B60799C}.Production|Default.Build.0 = Production
+		{DDD84457-5536-43E0-9D11-FC130B60799C}.Production|Default.Deploy.0 = Production
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

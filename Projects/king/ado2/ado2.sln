@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ado2", "ado2\ado2.csproj", "{317A9798-68B1-4EB5-92A3-76E2278DEAEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{317A9798-68B1-4EB5-92A3-76E2278DEAEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{317A9798-68B1-4EB5-92A3-76E2278DEAEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{317A9798-68B1-4EB5-92A3-76E2278DEAEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{317A9798-68B1-4EB5-92A3-76E2278DEAEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

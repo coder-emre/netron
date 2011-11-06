@@ -1,0 +1,7 @@
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\Musteri\Musteri\bin\Debug\Musteri.exe
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\Musteri\Musteri\bin\Debug\Musteri.pdb
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\Musteri\Musteri\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\Musteri\Musteri\obj\Debug\Musteri.exe
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\Musteri\Musteri\obj\Debug\Musteri.pdb
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\Musteri\Musteri\bin\Debug\UzakNesne.dll
+C:\Documents and Settings\admin\My Documents\Visual Studio 2008\Projects\Musteri\Musteri\bin\Debug\UzakNesne.pdb

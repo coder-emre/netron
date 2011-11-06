@@ -1,0 +1,71 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        { 
+            Console.WriteLine("islem turu giriniz");
+            Console.WriteLine("g-kullanýcý adý ve sifre");
+            Console.WriteLine("k-kayýt islemi");
+            string giris = Console.ReadLine();
+           
+            switch (giris)
+            {
+                case "g":
+                    Console.WriteLine("kullanýcý adý giriniz");
+                    string kayit1=Console.ReadLine();
+                    Console.WriteLine("sifre giriniz");
+                    string sifre1 = Console.ReadLine();
+                    if (kayit1 == "netron" || sifre1 == "1234")
+                    {
+                        Console.WriteLine("login oldunuz");
+                    }
+                    else {
+                        Console.WriteLine("login olamadýnýz");
+                    }
+                    break;
+                case "k":
+                    Console.WriteLine("kullanýcý adý giriniz");
+                    string kadi = Console.ReadLine();
+                    Console.WriteLine("sifre giriniz");
+                    string sifre = Console.ReadLine();
+                    Console.WriteLine("sifre tekrar edin");
+                    string tsifre = Console.ReadLine();
+                    if (sifre == tsifre)
+                    {
+                        Console.WriteLine("kayýt yapýldý'");
+
+                    }
+                    else {
+                        Console.WriteLine("hatalý sifre girdiniz");
+
+                    }
+                    break;
+                default:
+                    Console.WriteLine("tanýmlanmamýþ");
+                    break;
+            }
+
+            Console.ReadLine();
+
+
+        }
+    }
+}
+// bu da iþleme dewam etmek için
+Console.WriteLine("isleme devam etmek icin d ye basiniz");
+                        string giris = Console.ReadLine();
+                        if (giris == "d")
+                        {
+                            goto case "g";
+                        }
+
+                        else
+                        {
+                            break;
+                        }

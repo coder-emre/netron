@@ -1,0 +1,27 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CarMaster.master.cs" Inherits="CarMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>..:: Default Title ::..</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table align="center" width="90%"> 
+        <tr> <td align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="772" height="144">
+                <param name="movie" value="http://www.iticu.edu.tr/intro_new.swf">
+                <param name="quality" value="high">
+                <embed src="http://www.iticu.edu.tr/3yil/intro.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="772" height="144"> </embed>
+              </object></td></tr>
+        <tr> <td><asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder></td></tr>
+        <tr> <td>
+            Burada FOOTER BÝLGÝLERÝ YER ALACAK</td></tr>
+        
+        </table>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,39 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        { 
+             string Cumle="  dünyayý ben BEN BEN ben nah kurtaracam   ";
+            // yazýlýn deðeri küçük harfe çevirmek için
+            Console.WriteLine(Cumle.ToLower());
+            Console.WriteLine(Cumle.ToUpper());
+            Console.WriteLine(Cumle.Replace("nah","$"));
+            Console.WriteLine(Cumle.Trim());
+            Console.WriteLine(Cumle.Trim().StartsWith("dünyayý"));
+            string webadresi = "www.netron.com";
+            Console.WriteLine(webadresi.EndsWith("com"));
+            Console.WriteLine(webadresi.Contains("netron"));
+            Console.WriteLine(webadresi.Insert(0,"http://"));
+            Console.WriteLine(webadresi.Length);
+            Console.WriteLine(webadresi.Insert(webadresi.Length,".tr"));
+            Console.WriteLine(webadresi[0]);
+            Console.WriteLine(webadresi.Split('.')[1].Insert(6,"kadýkoy"));
+            Console.WriteLine(webadresi.Insert(webadresi.IndexOf("netron") + webadresi.Split('.')[1].Length, "kadikoy"));
+            Console.WriteLine(webadresi.Substring(0,3));
+            
+            Console.ReadLine();
+
+
+
+
+
+        }
+
+    }
+}

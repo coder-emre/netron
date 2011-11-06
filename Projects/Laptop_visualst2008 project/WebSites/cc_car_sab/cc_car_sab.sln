@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "D:\...\cc_car_sab\", "..\..\WebSites\cc_car_sab\", "{57B06D02-8BA0-4CA0-9C53-DC0566CF86EA}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/cc_car_sab"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\cc_car_sab\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\cc_car_sab\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/cc_car_sab"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\cc_car_sab\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\cc_car_sab\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1056"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57B06D02-8BA0-4CA0-9C53-DC0566CF86EA}.Debug|.NET.ActiveCfg = Debug|.NET
+		{57B06D02-8BA0-4CA0-9C53-DC0566CF86EA}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="default.aspx" title="Anasayfa"  description="Bu Giriş Sayfasıdır">
+        <siteMapNode url="saticilar.aspx" title="Satıcılar"  description="">
+          <siteMapNode url="servisler.aspx" title="Servisler"  description="">
+              <siteMapNode url="ServisBolgeler.aspx" title="Servis Bölgeleri"  description="" />
+          </siteMapNode>
+          <siteMapNode url="Bayiler.aspx" title="Bayiler"  description="">
+              <siteMapNode url="BayiBolgeler.aspx" title="Bayi Bölgeleri"  description="" />
+          </siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="Urunler.aspx" title="Ürünler"  description="" />
+    </siteMapNode>
+</siteMap>

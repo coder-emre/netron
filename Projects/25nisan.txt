@@ -1,0 +1,7 @@
+kadir çamoðlu
+
+Application kullanýmý; sitenin genelini ilgilendiren bilgilerini tutan kýsýmdýr. formload ilk açýlan þey, postback ondan sonra çalýþýr.Global.asax gibi bir dosya var önemli.
+eðer sayfa postback deðilse,application tek sayfa için id saklýyor.
+sayfa ,ilk kez açýlýyorsa deðer atayaraj nesne serverda tutulmuþ oluyor.sonra new item dan global application u seçtik. sonra session begin ve session end in içini dolduruyoruz.
+Kontroller; image button hem image gibi çalýþýr hem de event de çalýþtýrýr.radio button; tek seçimlik.Ýmagemap; yarým saat boyunca yaptýðýmýz ama hiçbir þey anlamadýðýmýz þey. direk, resimdeki koordinatlara göre linki belirleme.. postback value önemli. hot spottan oluyor tabi bunlar.
+Bir butonla tablo oluþturup text ile kolon sayýsýný gösterir.TableCell ve TableRow lar kullanýlarak image eklemeyi gerçekleþtirdik.
